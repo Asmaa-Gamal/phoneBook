@@ -1,0 +1,61 @@
+<html>
+	<head>
+	<link rel="stylesheet"href="css/bootstrap.min.css">
+	<link rel="stylesheet"href="css/all.min.css">
+	<link rel="stylesheet"href="css/index_style">
+	</head>
+	<body>
+		<div class="container py-3">
+
+        <div class="form-group">
+            <label>productName :</label>
+            <input id="productNameInp" class="form-control">
+
+        </div>
+
+        <div class="form-group">
+            <label>productPrice :</label>
+            <input id="productPriceInp" class="form-control">
+
+        </div>
+
+        <div class="form-group">
+            <label>productCategory :</label>
+            <input id="productCategoryInp" class="form-control">
+
+        </div>
+
+
+        <div class="form-group">
+            <label>productDesc :</label>
+            <textarea id="productDescInp" class="form-control"></textarea>
+
+
+        </div>
+
+        <button onclick="addProduct()" class="btn btn-info">add product</button>
+
+    </div>
+
+
+    <div class="container py-5">
+        
+
+
+       
+    </div>
+		
+		
+	<div class="container-fluid">
+		<h2 class="text-center">Our Products</h2>
+	<input class="form-control m-auto w-50"placeholder="Search" onkeyup="searchProduct(this.value)">
+			<div class="row my-4" id="productsRow">
+				 </div>
+		</div>
+	
+		<script src="js/popper.min.js"></script>
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/asma.js"></script>
+	</body>
+</html>
